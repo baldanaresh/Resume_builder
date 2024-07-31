@@ -9,6 +9,7 @@ function App() {
     <><div className="bg-slate-300">
      <BrowserRouter>
      <Routes>
+      
      <Route path="/" element={<Signup/>} />
       <Route path="/login" element={<Login/>} />
       <Route path="/signup" element={<Signup/>} />
